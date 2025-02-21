@@ -5,11 +5,11 @@ on:
     branches:
       - master
     paths:
-      - 'container/**'
+      - '.container/**'
 
 defaults:
   run:
-    working-directory: ${{ github.workspace }}/container
+    working-directory: ./container
 
 jobs:
   build:
