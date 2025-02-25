@@ -12,9 +12,9 @@ const prodConfig = {
   plugins: [
     new ModuleFederationPlugin({
       name: "container",
-      remotes: {
+      /*       remotes: {
         marketing: `marketing@${process.env.PRODUCTION_DOMAIN}/marketing/latest/remoteEntry.js`,
-      },
+      }, */
       shared: packageJson.dependecies,
     }),
   ],
