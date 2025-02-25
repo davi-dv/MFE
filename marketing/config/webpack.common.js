@@ -1,5 +1,9 @@
 module.exports = {
   module: {
+    stats: {
+      children: true,
+      warningsFilter: [/\-\-underline\-color/],
+    },
     rules: [
       {
         test: /\.m?js$/,

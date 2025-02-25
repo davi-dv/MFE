@@ -1,6 +1,10 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  stats: {
+    children: true,
+    warningsFilter: [/\-\-underline\-color/],
+  },
   module: {
     rules: [
       {
@@ -18,7 +22,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "../public/index.html",
+      template: "./public/index.html",
     }),
   ],
 };

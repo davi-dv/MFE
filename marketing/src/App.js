@@ -6,7 +6,6 @@ import Landing from "../components/Landing";
 import Pricing from "../components/Pricing";
 
 export default () => {
-  console.log("123455", process.env.PRODUCTION_DOMAIN);
   return (
     <div>
       <StylesProvider>
