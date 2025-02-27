@@ -6,7 +6,7 @@ import Landing from "../components/Landing";
 import Pricing from "../components/Pricing";
 
 export default () => {
-  console.log("teste 45");
+  console.log("teste 455");
   return (
     <div>
       <StylesProvider>
