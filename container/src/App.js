@@ -2,7 +2,7 @@ import React from "react";
 import MarketingApp from "./components/MarketingApp";
 
 export default () => {
-  console.log("containnerrr1232552");
+  console.log("cc");
   return (
     <div>
       <h1>Hi there</h1>
